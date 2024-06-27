@@ -1,0 +1,1 @@
+Example: nmap -sV -Pn http://10.10.82.0/   

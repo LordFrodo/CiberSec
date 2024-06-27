@@ -1,0 +1,1 @@
+Example: nikto -h 10.10.82.0       
