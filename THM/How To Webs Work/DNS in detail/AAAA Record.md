@@ -1,0 +1,1 @@
+These records resolve to IPv6 addresses, for example 2606:4700:20::681a:be5

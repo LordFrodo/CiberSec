@@ -1,0 +1,1 @@
+These records resolve to IPv4 addresses, for example 104.26.10.229

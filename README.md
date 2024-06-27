@@ -1,2 +1,1 @@
-# CiberSec
-![[Pasted image 20240627172311.png]]
+Install Obsidian to read all info.

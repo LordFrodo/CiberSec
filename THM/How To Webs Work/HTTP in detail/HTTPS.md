@@ -1,0 +1,2 @@
+HyperText Transfer Protocol Secure.
+HTTPS is the secure version of HTTP. HTTPS data is encrypted so it not only stops people from seeing the data you are receiving and sending, but it also gives you assurances that you're talking to the correct web server and not something impersonating it.
