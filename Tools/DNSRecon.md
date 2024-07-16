@@ -1,0 +1,3 @@
+Typically, an attacker would start with a small amount of information and gather more information while scanning, eventually moving on to performing different types of scans and gathering additional information. For instance, the attacker targeting h4cker.org might start by using **_DNS lookups_** to determine the IP address or addresses used by h4cker.org and any other subdomains that might be in use. Let’s say that those queries reveal that h4cker.org is using the IP addresses 185.199.108.153 for www.h4cker.org, 185.199.110.153 for mail.h4cker.org, and 185.199.110.153 for portal.h4cker.org. Example 3-1 shows an example of the DNSRecon tool in Kali Linux being used to query the DNS records for h4cker.org.
+
+![[Pasted image 20240716161455.png]]
