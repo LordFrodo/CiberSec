@@ -1,0 +1,3 @@
+For a penetration tester, **_group enumeration_** is helpful in determining the authorization roles that are being used in the target environment. The Nmap NSE script for enumerating SMB groups is **smb-enum-groups**. This script attempts to pull a list of groups from a remote Windows machine. You can also reveal the list of users who are members of those groups. The syntax of the command is as follows:
+
+**nmap --script smb-enum-groups.nse -p445** _<host>_

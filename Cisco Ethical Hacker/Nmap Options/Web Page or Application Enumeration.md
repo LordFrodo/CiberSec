@@ -1,0 +1,5 @@
+Once you have identified that a web server is running on a target host, the next step is to take a look at the web application and begin to map out the attack surface performing **_web page enumeration_** or often referred to as **_web application enumeration_**. You can map out the attack surface of a web application in a few different ways. The handy Nmap tool actually has an NSE script available for brute forcing the directory and file paths of web applications. Armed with a list of known files and directories used by common web applications, it probes the server for each of the items on the list. Based on the response from the server, it can determine whether those paths exist. This is handy for identifying things like the Apache or Tomcat default manager page that are commonly left on web servers and can be potential paths for exploitation. The syntax of the http-enum NSE script is as follows:
+
+**nmap -sV --script=http-enum** _<target>_
+
+![[Pasted image 20240718122012.png]]

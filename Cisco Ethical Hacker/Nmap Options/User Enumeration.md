@@ -1,0 +1,12 @@
+Gathering a valid list of users is the first step in cracking a set of credentials. When you have the username, you can then begin brute-force attempts to get the account password. You perform **_user enumeration_** when you have gained access to the internal network. On a Windows network, you can do this by manipulating the Server Message Block (SMB) protocol, which uses TCP port 445. Figure 3-12 illustrates how a typical SMB implementation works.
+
+The information contained in the responses to these messages enables you to reveal information about the server:
+
+- **SMB_COM_NEGOTIATE:** This message allows the client to tell the server what protocols, flags, and options it would like to use. The response from the server is also an SMB_COM_NEGOTIATE message. This response is relayed to the client about which protocols, flags, and options it prefers. This information can be configured on the server itself. A misconfiguration sometimes reveals information that you can use in penetration testing. For instance, the server might be configured to allow messages without signatures. You can determine if the server is using share- or user-level authentication mechanisms and whether the server allows plaintext passwords. The response from the server also provides additional information, such as the time and time zone the server is using. This is necessary information for many penetration testing tasks.
+- **SMB_COM_SESSION_SETUP_ANDX** : After the client and server have negotiated the protocols, flags, and options they will use for communication, the authentication process begins. Authentication is the primary function of the SMB_COM_SESSION_SETUP_ANDX message. The information sent in this message includes the client username, password, and domain. If this information is not encrypted, it is easy to sniff it right off the network. Even if it is encrypted, if the mechanism being used is not sufficient, the information can be revealed using tools such as Lanman and NTLM in the case of Microsoft Windows implementations. The following example shows this message being used with the smb-enum-users.nse script:
+    
+    **nmap --script smb-enum-users.nse** _<host>_
+    
+
+Example 3-24 shows the results of the Nmap **smb-enum-users** script run against the target 192.168.88.251. As you can see, the results indicate that the script was able to enumerate the users who are configured on this Windows target. The highlighted line reveals the user who was enumerated by Nmap (derek).
+![[Pasted image 20240717184734.png]]

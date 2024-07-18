@@ -1,0 +1,5 @@
+A host discovery scan is one of the most common types of scans used to enumerate hosts on a network because it can use different types of ICMP messages to determine whether a host is online and responding on a network.
+
+**NOTE** The default for the -sn scan option is to send an ICMP echo request packet to the target, a TCP SYN to port 443, a TCP ACK to port 80, and an ICMP timestamp request. This is documented at _[https://nmap.org/book/man-host-discovery.html](https://nmap.org/book/man-host-discovery.html)_. If the target responds to the ICMP echo or the aforementioned packets, then it is considered alive.
+
+Example 3-23 shows an example of a ping scan of the 192.168.88.0/24 subnet. This is a very basic host discovery scan that can be performed to determine what devices on a network are live. Such a scan for host discovery of an entire subnet is sometimes referred to as a _ping sweep_.

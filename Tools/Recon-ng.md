@@ -1,0 +1,3 @@
+Recon-ng is a modular framework, which makes it easy to develop and integrate new functionality. It is highly effective in social networking site enumeration because of its use of application programming interfaces (APIs) to gather information. It also includes a reporting feature that allows you to export data in different report formats. Because you will always need to provide some kind of deliverable in any testing you do, Recon-ng is especially valuable.
+
+To start using Recon-ng, you simply run **recon-ng** from a new terminal window. Example 3-11 shows the command and the initial menu that Recon-ng starts with.![[Pasted image 20240717165541.png]]
