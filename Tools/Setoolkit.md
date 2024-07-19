@@ -1,0 +1,3 @@
+The **_Social-Engineer Toolkit (SET)_** is a tool developed by David Kennedy. This tool can be used to launch numerous social engineering attacks and can be integrated with third-party tools and frameworks such as Metasploit. SET is installed by default in Kali Linux and Parrot Security. However, you can install it on other flavors of Linux as well as on macOS. You can download SET from [_https://github.com/trustedsec/social-engineer-toolkit_](https://github.com/trustedsec/social-engineer-toolkit)
+
+Launch SET by using the **_sudo setoolkit_** command.

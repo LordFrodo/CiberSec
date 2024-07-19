@@ -1,0 +1,3 @@
+In Module 6, “Exploiting Application-Based Vulnerabilities,” you will learn about web application vulnerabilities, such as cross-site scripting (XSS) and cross-site request forgery (CSRF). XSS vulnerabilities leverage input validation weaknesses on a web application. These vulnerabilities are often used to redirect users to malicious websites to steal cookies (session tokens) and other sensitive information. **_Browser Exploitation Framework (BeEF)_** is a tool that can be used to manipulate users by leveraging XSS vulnerabilities. You can download BeEF from [_https://beefproject.com_](https://beefproject.com) or [_https://github.com/beefproject/beef_](https://github.com/beefproject/beef).
+
+Research to learn how to use it.
