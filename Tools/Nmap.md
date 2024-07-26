@@ -9,6 +9,8 @@ The following sections cover some of the most common Nmap scanning options used 
 - TCP FIN Scan (**[[-sF]]**)
 - Host Discovery Scan (**[[-sn]]**)
 - Don't get the DNS server (-n)
+- Verbose (-v)
+- Use a ICMP (ping request) to discover hosts (-PE)
 - List of Targets (-sL)
 - Only runs a ARP scan ([[-PR]])
 - Timing Options (**[[-T 0-5]]**)
