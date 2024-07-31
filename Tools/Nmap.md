@@ -11,6 +11,8 @@ The following sections cover some of the most common Nmap scanning options used 
 - Host Discovery Scan (**[[-sn]]**)
 - Don't get the DNS server (-n)
 - Verbose (-v)
+- Debugging (-d)
+- Reason of result (--reason)
 - Get all possible DNS even offline (-R)
 - Scan the 100 most common ports (-F)
 - Use a ICMP (ping request) to discover hosts (-PE)
