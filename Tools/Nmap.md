@@ -5,17 +5,23 @@ Nmap Scan Types
 The following sections cover some of the most common Nmap scanning options used for specific scenarios, including the following:
 
 - TCP Connect Scan (**[[-sT]]**)
+- TCP SYN Scan ([[-sS]])
 - UDP Scan (**[[-sU]]**)
 - TCP FIN Scan (**[[-sF]]**)
 - Host Discovery Scan (**[[-sn]]**)
 - Don't get the DNS server (-n)
 - Verbose (-v)
+- Get all possible DNS even offline (-R)
+- Scan the 100 most common ports (-F)
 - Use a ICMP (ping request) to discover hosts (-PE)
 - List of Targets (-sL)
 - Only runs a ARP scan ([[-PR]])
 - Timing Options (**[[-T 0-5]]**)
 - Host Enumeration (**[[-sP]]**) (This is the same as -sn)
 - Run Most Common NSE (-sC)
+- TCP SYN Ping Scan ([[-PS]])
+- TCP ACK Ping Scan ([[-PA]])
+- UDP Ping Scan ([[-PU]])
 - [[Web Page or Application Enumeration]](**-sV**)
 - [[User Enumeration]]
 - [[Group Enumeration]]
