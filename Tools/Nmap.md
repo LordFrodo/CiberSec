@@ -12,7 +12,10 @@ The following sections cover some of the most common Nmap scanning options used 
 - Don't get the DNS server (-n)
 - Verbose (-v)
 - Debugging (-d)
-- Reason of result (--reason)
+- Get OS (-O)
+- Get Traceroute to the target(--traceroute)
+- Reason of Nmap conclusions (--reason)
+- Fragment IP data (-f)
 - Get all possible DNS even offline (-R)
 - Scan the 100 most common ports (-F)
 - Use a ICMP (ping request) to discover hosts (-PE)
@@ -20,11 +23,11 @@ The following sections cover some of the most common Nmap scanning options used 
 - Only runs a ARP scan ([[-PR]])
 - Timing Options (**[[-T 0-5]]**)
 - Host Enumeration (**[[-sP]]**) (This is the same as -sn)
-- Run Most Common NSE (-sC)
+- Run Most Common or Default NSE (-sC)
 - TCP SYN Ping Scan ([[-PS]])
 - TCP ACK Ping Scan ([[-PA]])
 - UDP Ping Scan ([[-PU]])
-- [[Web Page or Application Enumeration]](**-sV**)
+- [[Web Page or Application Enumeration]] & Service Version Scan (**-sV**)
 - [[User Enumeration]]
 - [[Group Enumeration]]
 - [[Network Share Enumeration]]
