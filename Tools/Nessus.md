@@ -1,0 +1,1 @@
+For example, the vulnerability scanner [Nessus](https://www.tenable.com/products/nessus) has both a free (community) edition and commercial. The commercial version costing thousands of pounds for a year's license will likely be used in organisations providing penetration testing services or audits.
