@@ -1,0 +1,1 @@
+Only work if has Wordpress
