@@ -33,3 +33,6 @@ Notes:
 On the _client_-side, you would issue `nc MACHINE_IP PORT_NUMBER`. Here is an example of using `nc` to echo. After you successfully establish a connection to the server, whatever you type on the client-side will be echoed on the server-side and vice versa.
 
 Consider the following example. On the server-side, we will listen on port 1234. We can achieve this with the command `nc -vnlp 1234` (same as `nc -lvnp 1234`). In our case, the listening server has the IP address `MACHINE_IP`, so we can connect to it from the client-side by executing `nc MACHINE_IP 1234`. This setup would echo whatever you type on one side to the other side of the TCP tunnel. You can find a recording of the process below. Note that the listening server is on the left side of the screen.
+
+**UPGRADE**
+-[[rlwrap]]
