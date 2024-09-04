@@ -65,3 +65,5 @@ Windows
 |dir|List the contents of the current directory. You may be able to find files such as configuration files, environment files (tokens and application keys), and many more valuable things.|
 |ping|This command will invoke the application to hang. This will be useful in testing an application for blind command injection.|
 |timeout|This command will also invoke the application to hang. It is also useful for testing an application for blind command injection if the `ping` command is not installed.|
+Examples:
+Sleep with other method: ||ping+-c+10+127.0.0.1|| or ||sleep 10||. Search what field can be attached a command between the double line.
