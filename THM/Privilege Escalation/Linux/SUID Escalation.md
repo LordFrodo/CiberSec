@@ -2,7 +2,7 @@ Much of Linux privilege controls rely on controlling the users and files interac
   
 You will notice these files have an “s” bit set showing their special permission level.  
   
-`find / -type f -perm -04000 -ls 2>/dev/null` will list files that have SUID or SGID bits set.
+`find / -type f -perm -04000 -ls 2>/dev/null` or `find / -user root -perm -4000 -exec ls -ldb {} \;`will list files that have SUID or SGID bits set.
 
 ![](https://i.imgur.com/fJEeZ4m.png)
 
