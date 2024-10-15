@@ -30,8 +30,8 @@ OPCIONAL
 
  openssl pkcs12 -inkey priv.key -in certificate.pem -export -out certificate_full.p12
 
-Now, open BurpSuite, go to Proxy settings and import your new Certificate (preferred the full.p12). When the import was successfully, edit your proxy listener to listen all the interfaces and at the "Request Handling" vies, check the support invisible proxying.
+Now, open BurpSuite, go to Proxy settings and import your new Certificate (preferred the full.p12). When the import was successfully, edit your proxy listener to listen all the interfaces and at the "Request Handling" view, check the support invisible proxying.
 
-Now open your search browser at your phone and search your main device IP at the port 8080 and download the burpsuite certificate. Go to settings "CA Certificates" and install your certificate. Check was successfully instales at "Trusted Credentials" at the "User" view.
+Now open your search browser at your phone and search your main device IP at the port 8080 and download the burpsuite certificate. Go to settings "CA Certificates" and install your certificate. Check was successfully installed at "Trusted Credentials" ai the "User" view.
 
 ![[Pasted image 20241008153741.png]]
