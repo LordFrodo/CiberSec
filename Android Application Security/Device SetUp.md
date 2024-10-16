@@ -34,4 +34,14 @@ Now, open BurpSuite, go to Proxy settings and import your new Certificate (prefe
 
 Now open your search browser at your phone and search your main device IP at the port 8080 and download the burpsuite certificate. Go to settings "CA Certificates" and install your certificate. Check was successfully installed at "Trusted Credentials" ai the "User" view.
 
+To make your User Certificate a System Certificate lets download this to .zip from this gits
+
+- [https://github.com/NVISOsecurity/MagiskTrustUserCerts](https://github.com/NVISOsecurity/MagiskTrustUserCerts)
+    
+- [https://github.com/nccgroup/ConscryptTrustUserCerts](https://github.com/nccgroup/ConscryptTrustUserCerts)
+
+Download your proxy (Drony apk or Proxy Droid) at google and install it. 
+
+Open Magisk, go to Modules, search the .zip file, select it and reboot. Check your trusted credentials later.
+
 ![[Pasted image 20241008153741.png]]
