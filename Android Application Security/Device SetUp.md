@@ -51,6 +51,15 @@ https://github.com/WithSecureLabs/drozer?tab=readme-ov-file
 Open this git and run the command to install it, something like this:
 pip3 install drozer --break-system-packages
 
-Now, go down to the Install Agent, download it and run the adb command. You`re done
+Now, go down to the Install Agent, download it and run the adb command. You're done
+
+Install Frida
+
+Run this command:
+pip3 install frida frida-tools objection --break-system-packages
+
+open in your cellphone this git and download the same version of your frida
+https://github.com/ViRb3/magisk-frida/releases
+When downloaded open Magisk, go to modules and add it.
 
 ![[Pasted image 20241008153741.png]]
