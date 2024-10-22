@@ -44,4 +44,13 @@ Download your proxy (Drony apk or Proxy Droid) at google and install it.
 
 Open Magisk, go to Modules, search the .zip file, select it and reboot. Check your trusted credentials later.
 
+
+Install Drozer
+
+https://github.com/WithSecureLabs/drozer?tab=readme-ov-file
+Open this git and run the command to install it, something like this:
+pip3 install drozer --break-system-packages
+
+Now, go down to the Install Agent, download it and run the adb command. You`re done
+
 ![[Pasted image 20241008153741.png]]
