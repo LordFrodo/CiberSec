@@ -1,0 +1,1 @@
+example: impacket-smbclient aulas/postgrados:'mieia'@172.17.37.32
