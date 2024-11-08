@@ -5,5 +5,5 @@
 - Dehashed (for md5 & sha1)
 
 **Most Famous tools**
-- Jhon the ripper
+- John the ripper
 - Hashcat
