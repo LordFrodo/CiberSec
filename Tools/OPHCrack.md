@@ -1,0 +1,1 @@
+Use it to crack hashes. It has GUI

